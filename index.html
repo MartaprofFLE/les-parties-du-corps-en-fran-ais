@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<title>Les parties du corps — FLE A1 (optimitzada)</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+<style>
+:root{
+--sage:#3d7a52;
+--bg:#f8f6f1;
+--card:#fff;
+--txt:#1a1d24;
+--muted:#6c6f7c;
+--border:#e4e0d6;
+--r:14px;
+}
+
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--txt);margin:0}
+.wrap{max-width:900px;margin:auto;padding:20px}
+
+h1{font-family:'Playfair Display';font-size:2.4rem;text-align:center}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:20px;margin:20px 0}
+
+.video iframe{width:100%;height:380px;border-radius:10px}
+
+.btn{background:var(--sage);color:#fff;border:none;padding:10px 18px;border-radius:10px;cursor:pointer}
+
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.vc{border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center;cursor:pointer}
+.vc:hover{background:#f1f7f3}
+
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>Les parties du corps</h1>
+
+<!-- 1 VOCAB -->
+<div class="card">
+<h2>1. Vocabulari</h2>
+<div class="vocab-grid">
+<div class="vc">👀 les yeux</div>
+<div class="vc">👃 le nez</div>
+<div class="vc">👄 la bouche</div>
+<div class="vc">👂 les oreilles</div>
+<div class="vc">🦷 les dents</div>
+</div>
+</div>
+
+<!-- 2 VIDEO -->
+<div class="card video">
+<h2>2. Vídeo</h2>
+
+<p>👉 Mira el vídeo i identifica 3 parts del cos que entenguis.</p>
+
+<iframe src="https://www.youtube-nocookie.com/embed/bKjtZI-KKz4?list=RDbKjtZI-KKz4"
+allowfullscreen></iframe>
+
+</div>
+
+<!-- 3 COS -->
+<div class="card">
+<h2>3. Cos interactiu</h2>
+<p>Fes clic i digues la part del cos en francès.</p>
+
+<p style="font-size:2rem">🧍‍♂️</p>
+
+</div>
+
+<!-- 4 DICTEE -->
+<div class="card">
+<h2>4. Dictée</h2>
+<p>Escolta i escriu:</p>
+
+<input placeholder="Escriu aquí..." style="width:100%;padding:10px">
+</div>
+
+<!-- 5 QUIZ -->
+<div class="card">
+<h2>5. Quiz</h2>
+
+<button class="btn" onclick="alert('Bonne réponse!')">
+Quin és “el nas”?
+</button>
+
+</div>
+
+<!-- 6 REDACCIO -->
+<div class="card">
+<h2>6. Escriptura</h2>
+
+<p>Mínim 12 paraules.</p>
+
+<textarea style="width:100%;height:120px"></textarea>
+
+</div>
+
+<!-- 7 FINAL -->
+<div class="card">
+<h2>7. Final</h2>
+
+<button class="btn" onclick="alert('PDF generat (simulat)')">
+Descarregar PDF
+</button>
+
+</div>
+
+</div>
+</body>
+</html>
